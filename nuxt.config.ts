@@ -14,4 +14,9 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxt/image", "@nuxt/fonts", "@nuxtjs/tailwindcss"],
+  nitro: {
+    experimental: {
+      websocket: true,
+    },
+  },
 });
